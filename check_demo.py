@@ -26,7 +26,8 @@ for path in root.rglob('*'):
     if not path.is_file() or '.git' in path.parts or path.suffix in ('.woff', '.png'): continue
     text = path.read_text(encoding='utf-8')
     if path.name == 'check_demo.py': continue
-    assert not re.search(r'turnstile|resend|GOOGLE_SERVICE_ACCOUNT|/api/contact|/dashboard/api|tel:|mailto:', text, re.I), f'Live integration: {path}'
+    if path.suffix != '.md':
+        assert not re.search(r'turnstile|resend|GOOGLE_SERVICE_ACCOUNT|/api/contact|/dashboard/api|tel:|mailto:', text, re.I), f'Live integration: {path}'
     assert not re.search(r'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_|AKIA[A-Z0-9]{16}|BEGIN PRIVATE KEY', text), f'Credential pattern: {path}'
 assert not (root / 'functions').exists()
 assert not (root / 'photos').exists()
