@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="린넨 스튜디오: 가상 브랜드로 재구성한 기업 웹사이트 포트폴리오 데모.">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <title>홈페이지 통계 | LINEN STUDIO</title>
+  <link rel="stylesheet" href="/dashboard/styles.css">
+  <script src="/dashboard/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="wordmark" href="/" aria-label="린넨 스튜디오 홈페이지">LINEN STUDIO<span>린넨 스튜디오</span></a>
+      <div class="topbar-meta">
+        <span class="updated">최근 업데이트 <strong id="updated-at">—</strong></span>
+        <span class="period" aria-label="조회 기간"><span id="period-label">—</span><span class="period-note">조회 기간</span></span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <div class="intro">
+      <div>
+        <p class="eyebrow">WEBSITE ANALYTICS</p>
+        <h1>홈페이지 통계</h1>
+        <p class="intro-copy">모든 수치와 검색어는 가상 데이터입니다. 기간과 지표를 바꾸어 체험해 보세요.</p>
+      </div>
+      <p class="sample-notice" id="status" role="status" aria-live="polite"><strong>불러오는 중</strong><span>통계 데이터를 불러오는 중입니다.</span></p>
+    </div>
+
+    <section class="kpi-section" aria-label="핵심 지표">
+      <div id="kpis" class="kpi-grid"></div>
+    </section>
+
+    <section class="panel trend-panel" aria-labelledby="trend-title">
+      <div class="panel-heading">
+        <div><p class="section-index">01 / VISITORS</p><h2 id="trend-title">방문자 추이</h2><p class="section-subtitle">기간별 홈페이지 방문 흐름</p></div>
+        <div class="segmented" role="group" aria-label="방문자 추이 기간">
+          <button type="button" data-days="7" aria-pressed="false">7일</button>
+          <button type="button" data-days="30" aria-pressed="true">30일</button>
+          <button type="button" data-days="90" aria-pressed="false">90일</button>
+        </div>
+      </div>
+      <div class="segmented metric-toggle" role="group" aria-label="추이 지표">
+        <button type="button" data-metric="activeUsers" aria-pressed="true">방문자</button>
+        <button type="button" data-metric="searchSessions" aria-pressed="false">검색 유입</button>
+        <button type="button" data-metric="inquiries" aria-pressed="false">문의</button>
+      </div>
+      <div id="trend-chart" class="trend-chart"></div>
+      <p class="chart-caption"><span class="line-key" aria-hidden="true"></span><span id="trend-label">방문자 수</span> <span id="trend-period"></span></p>
+    </section>
+
+    <div class="two-column">
+      <section class="panel" aria-labelledby="sources-title">
+        <div class="panel-heading"><div><p class="section-index">02 / ACQUISITION</p><h2 id="sources-title">유입 경로</h2></div></div>
+        <div class="sources-layout"><div id="source-donut" class="donut" role="img"></div><ul id="source-list" class="source-list"></ul></div>
+      </section>
+      <section class="panel" aria-labelledby="search-title">
+        <div class="panel-heading"><div><p class="section-index">03 / SEARCH</p><h2 id="search-title">검색 현황 데모</h2></div><span class="source-label">샘플 검색 데이터</span></div>
+        <div id="search-stats" class="search-stats"></div>
+        <p class="panel-footnote">평균 검색순위는 숫자가 낮아지면 개선입니다.</p>
+      </section>
+    </div>
+
+    <div class="two-column">
+      <section class="panel" aria-labelledby="pages-title">
+        <div class="panel-heading"><div><p class="section-index">04 / CONTENT</p><h2 id="pages-title">인기 페이지</h2></div></div>
+        <div class="table-wrap"><table><thead><tr><th scope="col">페이지</th><th scope="col" class="number">조회수</th><th scope="col" class="number">방문자</th></tr></thead><tbody id="pages-body"></tbody></table></div>
+      </section>
+      <section class="panel" aria-labelledby="queries-title">
+        <div class="panel-heading"><div><p class="section-index">05 / KEYWORDS</p><h2 id="queries-title">주요 검색어 <span class="top-five">SAMPLE</span></h2></div><span class="source-label">샘플 검색 데이터</span></div>
+        <div class="table-wrap"><table class="metrics-table"><thead><tr><th scope="col">검색어</th><th scope="col" class="number">클릭수</th><th scope="col" class="number">노출수</th><th scope="col" class="number">CTR</th><th scope="col" class="number">평균 검색순위</th></tr></thead><tbody id="queries-body"></tbody></table></div>
+      </section>
+    </div>
+
+    <div class="two-column bottom-row">
+      <section class="panel" aria-labelledby="inquiry-title">
+        <div class="panel-heading"><div><p class="section-index">06 / INQUIRIES</p><h2 id="inquiry-title">문의 현황</h2></div></div>
+        <div id="inquiry-stats" class="inquiry-stats"></div>
+        <p class="panel-footnote">문의 제출 수치는 데모용 가상 데이터입니다.</p>
+      </section>
+      <section class="panel" aria-labelledby="search-pages-title">
+        <div class="panel-heading"><div><p class="section-index">07 / SEARCH PAGES</p><h2 id="search-pages-title">검색 페이지 성과</h2></div><span class="source-label">샘플 검색 데이터</span></div>
+        <div class="table-wrap"><table class="metrics-table"><thead><tr><th scope="col">페이지</th><th scope="col" class="number">클릭수</th><th scope="col" class="number">노출수</th><th scope="col" class="number">CTR</th><th scope="col" class="number">평균 검색순위</th></tr></thead><tbody id="search-pages-body"></tbody></table></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-inner"><strong>LINEN STUDIO</strong><span>데이터 출처 · 저장소의 가상 샘플</span></div></footer>
+</body>
+</html>

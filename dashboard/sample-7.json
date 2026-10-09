@@ -1,0 +1,155 @@
+{
+  "range": {
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-30"
+  },
+  "meta": {
+    "source": "sample",
+    "updatedAt": "2026-09-30T00:00:00Z",
+    "errors": {
+      "analytics": null,
+      "searchConsole": null
+    }
+  },
+  "summary": {
+    "visitors": 418,
+    "visitorsChange": 12.5,
+    "searchTraffic": 131,
+    "searchTrafficChange": 8,
+    "inquiries": 13,
+    "inquiriesChange": 10,
+    "conversionRate": 9.285714285714286,
+    "conversionRateChange": 0.5
+  },
+  "visitorTrend": [
+    {
+      "date": "2026-09-24",
+      "activeUsers": 40,
+      "searchSessions": 12,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-25",
+      "activeUsers": 53,
+      "searchSessions": 19,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-26",
+      "activeUsers": 66,
+      "searchSessions": 26,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-27",
+      "activeUsers": 79,
+      "searchSessions": 13,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-28",
+      "activeUsers": 47,
+      "searchSessions": 20,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-29",
+      "activeUsers": 60,
+      "searchSessions": 27,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-30",
+      "activeUsers": 73,
+      "searchSessions": 14,
+      "inquiries": 1
+    }
+  ],
+  "trafficSources": [
+    {
+      "name": "자연 검색",
+      "value": 131
+    },
+    {
+      "name": "직접 방문",
+      "value": 70
+    },
+    {
+      "name": "외부 링크",
+      "value": 21
+    }
+  ],
+  "popularPages": [
+    {
+      "path": "/",
+      "name": "홈",
+      "views": 585,
+      "activeUsers": 418
+    },
+    {
+      "path": "/services/",
+      "name": "서비스",
+      "views": 182,
+      "activeUsers": 133
+    },
+    {
+      "path": "/contact/",
+      "name": "문의 데모",
+      "views": 140,
+      "activeUsers": 105
+    }
+  ],
+  "searchConsole": {
+    "clicks": 56,
+    "impressions": 700,
+    "ctr": 0.08,
+    "position": 7.2,
+    "changes": {
+      "clicks": 8,
+      "impressions": 12,
+      "ctr": 0.3,
+      "position": -0.8
+    }
+  },
+  "searchQueries": [
+    {
+      "query": "샘플 린넨 서비스",
+      "clicks": 35,
+      "impressions": 420,
+      "ctr": 0.08333333333333333,
+      "position": 5
+    },
+    {
+      "query": "가상 브랜드 세탁",
+      "clicks": 28,
+      "impressions": 350,
+      "ctr": 0.08,
+      "position": 6
+    },
+    {
+      "query": "린넨 스튜디오 데모",
+      "clicks": 21,
+      "impressions": 280,
+      "ctr": 0.075,
+      "position": 7
+    }
+  ],
+  "searchPages": [
+    {
+      "name": "서비스",
+      "url": "/services/",
+      "clicks": 35,
+      "impressions": 420,
+      "ctr": 0.08333333333333333,
+      "position": 5.2
+    }
+  ],
+  "inquiryStats": {
+    "contactPageViews": 140,
+    "contactPageViewsChange": 7,
+    "leads": 13,
+    "leadsChange": 10,
+    "conversionRate": 9.285714285714286,
+    "conversionRateChange": 0.5
+  }
+}

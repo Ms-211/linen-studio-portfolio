@@ -1,0 +1,653 @@
+{
+  "range": {
+    "startDate": "2026-07-03",
+    "endDate": "2026-09-30"
+  },
+  "meta": {
+    "source": "sample",
+    "updatedAt": "2026-09-30T00:00:00Z",
+    "errors": {
+      "analytics": null,
+      "searchConsole": null
+    }
+  },
+  "summary": {
+    "visitors": 5580,
+    "visitorsChange": 12.5,
+    "searchTraffic": 1915,
+    "searchTrafficChange": 8,
+    "inquiries": 180,
+    "inquiriesChange": 10,
+    "conversionRate": 10.0,
+    "conversionRateChange": 0.5
+  },
+  "visitorTrend": [
+    {
+      "date": "2026-07-03",
+      "activeUsers": 40,
+      "searchSessions": 12,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-04",
+      "activeUsers": 53,
+      "searchSessions": 19,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-05",
+      "activeUsers": 66,
+      "searchSessions": 26,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-06",
+      "activeUsers": 79,
+      "searchSessions": 13,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-07",
+      "activeUsers": 47,
+      "searchSessions": 20,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-08",
+      "activeUsers": 60,
+      "searchSessions": 27,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-09",
+      "activeUsers": 73,
+      "searchSessions": 14,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-10",
+      "activeUsers": 41,
+      "searchSessions": 21,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-11",
+      "activeUsers": 54,
+      "searchSessions": 28,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-12",
+      "activeUsers": 67,
+      "searchSessions": 15,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-13",
+      "activeUsers": 80,
+      "searchSessions": 22,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-14",
+      "activeUsers": 48,
+      "searchSessions": 29,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-15",
+      "activeUsers": 61,
+      "searchSessions": 16,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-16",
+      "activeUsers": 74,
+      "searchSessions": 23,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-17",
+      "activeUsers": 42,
+      "searchSessions": 30,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-18",
+      "activeUsers": 55,
+      "searchSessions": 17,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-19",
+      "activeUsers": 68,
+      "searchSessions": 24,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-20",
+      "activeUsers": 81,
+      "searchSessions": 31,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-21",
+      "activeUsers": 49,
+      "searchSessions": 18,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-22",
+      "activeUsers": 62,
+      "searchSessions": 25,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-23",
+      "activeUsers": 75,
+      "searchSessions": 12,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-24",
+      "activeUsers": 43,
+      "searchSessions": 19,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-25",
+      "activeUsers": 56,
+      "searchSessions": 26,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-26",
+      "activeUsers": 69,
+      "searchSessions": 13,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-27",
+      "activeUsers": 82,
+      "searchSessions": 20,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-28",
+      "activeUsers": 50,
+      "searchSessions": 27,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-07-29",
+      "activeUsers": 63,
+      "searchSessions": 14,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-07-30",
+      "activeUsers": 76,
+      "searchSessions": 21,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-07-31",
+      "activeUsers": 44,
+      "searchSessions": 28,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-01",
+      "activeUsers": 57,
+      "searchSessions": 15,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-02",
+      "activeUsers": 70,
+      "searchSessions": 22,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-03",
+      "activeUsers": 83,
+      "searchSessions": 29,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-04",
+      "activeUsers": 51,
+      "searchSessions": 16,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-05",
+      "activeUsers": 64,
+      "searchSessions": 23,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-06",
+      "activeUsers": 77,
+      "searchSessions": 30,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-07",
+      "activeUsers": 45,
+      "searchSessions": 17,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-08",
+      "activeUsers": 58,
+      "searchSessions": 24,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-09",
+      "activeUsers": 71,
+      "searchSessions": 31,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-10",
+      "activeUsers": 84,
+      "searchSessions": 18,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-11",
+      "activeUsers": 52,
+      "searchSessions": 25,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-12",
+      "activeUsers": 65,
+      "searchSessions": 12,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-13",
+      "activeUsers": 78,
+      "searchSessions": 19,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-14",
+      "activeUsers": 46,
+      "searchSessions": 26,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-15",
+      "activeUsers": 59,
+      "searchSessions": 13,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-16",
+      "activeUsers": 72,
+      "searchSessions": 20,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-17",
+      "activeUsers": 40,
+      "searchSessions": 27,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-18",
+      "activeUsers": 53,
+      "searchSessions": 14,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-19",
+      "activeUsers": 66,
+      "searchSessions": 21,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-20",
+      "activeUsers": 79,
+      "searchSessions": 28,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-21",
+      "activeUsers": 47,
+      "searchSessions": 15,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-22",
+      "activeUsers": 60,
+      "searchSessions": 22,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-23",
+      "activeUsers": 73,
+      "searchSessions": 29,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-24",
+      "activeUsers": 41,
+      "searchSessions": 16,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-25",
+      "activeUsers": 54,
+      "searchSessions": 23,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-26",
+      "activeUsers": 67,
+      "searchSessions": 30,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-27",
+      "activeUsers": 80,
+      "searchSessions": 17,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-28",
+      "activeUsers": 48,
+      "searchSessions": 24,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-08-29",
+      "activeUsers": 61,
+      "searchSessions": 31,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-08-30",
+      "activeUsers": 74,
+      "searchSessions": 18,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-08-31",
+      "activeUsers": 42,
+      "searchSessions": 25,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-01",
+      "activeUsers": 55,
+      "searchSessions": 12,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-02",
+      "activeUsers": 68,
+      "searchSessions": 19,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-03",
+      "activeUsers": 81,
+      "searchSessions": 26,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-04",
+      "activeUsers": 49,
+      "searchSessions": 13,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-05",
+      "activeUsers": 62,
+      "searchSessions": 20,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-06",
+      "activeUsers": 75,
+      "searchSessions": 27,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-07",
+      "activeUsers": 43,
+      "searchSessions": 14,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-08",
+      "activeUsers": 56,
+      "searchSessions": 21,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-09",
+      "activeUsers": 69,
+      "searchSessions": 28,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-10",
+      "activeUsers": 82,
+      "searchSessions": 15,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-11",
+      "activeUsers": 50,
+      "searchSessions": 22,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-12",
+      "activeUsers": 63,
+      "searchSessions": 29,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-13",
+      "activeUsers": 76,
+      "searchSessions": 16,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-14",
+      "activeUsers": 44,
+      "searchSessions": 23,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-15",
+      "activeUsers": 57,
+      "searchSessions": 30,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-16",
+      "activeUsers": 70,
+      "searchSessions": 17,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-17",
+      "activeUsers": 83,
+      "searchSessions": 24,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-18",
+      "activeUsers": 51,
+      "searchSessions": 31,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-19",
+      "activeUsers": 64,
+      "searchSessions": 18,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-20",
+      "activeUsers": 77,
+      "searchSessions": 25,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-21",
+      "activeUsers": 45,
+      "searchSessions": 12,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-22",
+      "activeUsers": 58,
+      "searchSessions": 19,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-23",
+      "activeUsers": 71,
+      "searchSessions": 26,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-24",
+      "activeUsers": 84,
+      "searchSessions": 13,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-25",
+      "activeUsers": 52,
+      "searchSessions": 20,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-26",
+      "activeUsers": 65,
+      "searchSessions": 27,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-27",
+      "activeUsers": 78,
+      "searchSessions": 14,
+      "inquiries": 3
+    },
+    {
+      "date": "2026-09-28",
+      "activeUsers": 46,
+      "searchSessions": 21,
+      "inquiries": 1
+    },
+    {
+      "date": "2026-09-29",
+      "activeUsers": 59,
+      "searchSessions": 28,
+      "inquiries": 2
+    },
+    {
+      "date": "2026-09-30",
+      "activeUsers": 72,
+      "searchSessions": 15,
+      "inquiries": 3
+    }
+  ],
+  "trafficSources": [
+    {
+      "name": "자연 검색",
+      "value": 1915
+    },
+    {
+      "name": "직접 방문",
+      "value": 900
+    },
+    {
+      "name": "외부 링크",
+      "value": 270
+    }
+  ],
+  "popularPages": [
+    {
+      "path": "/",
+      "name": "홈",
+      "views": 7812,
+      "activeUsers": 5580
+    },
+    {
+      "path": "/services/",
+      "name": "서비스",
+      "views": 2340,
+      "activeUsers": 1710
+    },
+    {
+      "path": "/contact/",
+      "name": "문의 데모",
+      "views": 1800,
+      "activeUsers": 1350
+    }
+  ],
+  "searchConsole": {
+    "clicks": 720,
+    "impressions": 9000,
+    "ctr": 0.08,
+    "position": 7.2,
+    "changes": {
+      "clicks": 8,
+      "impressions": 12,
+      "ctr": 0.3,
+      "position": -0.8
+    }
+  },
+  "searchQueries": [
+    {
+      "query": "샘플 린넨 서비스",
+      "clicks": 450,
+      "impressions": 5400,
+      "ctr": 0.08333333333333333,
+      "position": 5
+    },
+    {
+      "query": "가상 브랜드 세탁",
+      "clicks": 360,
+      "impressions": 4500,
+      "ctr": 0.08,
+      "position": 6
+    },
+    {
+      "query": "린넨 스튜디오 데모",
+      "clicks": 270,
+      "impressions": 3600,
+      "ctr": 0.075,
+      "position": 7
+    }
+  ],
+  "searchPages": [
+    {
+      "name": "서비스",
+      "url": "/services/",
+      "clicks": 450,
+      "impressions": 5400,
+      "ctr": 0.08333333333333333,
+      "position": 5.2
+    }
+  ],
+  "inquiryStats": {
+    "contactPageViews": 1800,
+    "contactPageViewsChange": 7,
+    "leads": 180,
+    "leadsChange": 10,
+    "conversionRate": 10.0,
+    "conversionRateChange": 0.5
+  }
+}

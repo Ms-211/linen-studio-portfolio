@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>호텔 세탁 견적·린넨 세탁 비용 문의 | 린넨 스튜디오</title>
+    <meta name="description" content="린넨 스튜디오: 가상 브랜드로 재구성한 기업 웹사이트 포트폴리오 데모.">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/styles.css">
+    
+    <script src="/app.js" defer></script>
+</head>
+
+<body class="contact-page"><a class="skip-link" href="#main">본문 바로가기</a>
+    <header class="header"><a class="wordmark" href="/" aria-label="린넨 스튜디오 홈">LINEN STUDIO<span>린넨 스튜디오</span></a><button
+            class="menu-toggle" aria-expanded="false" aria-controls="navigation">메뉴 <span
+                aria-hidden="true">＋</span></button>
+        <nav id="navigation" aria-label="주요 메뉴"><a href="/about/" class="">브랜드 소개</a><a href="/services/"
+                class="">서비스</a><a href="/process/" class="">서비스 흐름</a><a href="/facility/" class="">서비스 공간</a><a
+                href="/contact/" class="nav-contact" aria-current="page">문의 데모</a></nav>
+    </header>
+    <main id="main"><p class="demo-banner">포트폴리오 데모 · 가상 브랜드와 예시 자료입니다. 실제 서비스 신청은 받지 않습니다. <a href="/dashboard/">통계 데모 보기 ↗</a></p>
+        <section class="page-hero"><div class="container"><p class="eyebrow">LINEN STUDIO / PORTFOLIO DEMO</p><h1>문의 경험을<br>직접 체험해 보세요</h1><p class="lead">필수 항목과 입력 형식을 확인하는 데모입니다. 실제 문의는 접수되지 않습니다.</p></div></section>
+        <section class="section " id="section-2" tabindex="-1">
+            <div class="container">
+                <div class="contact-layout">
+                    <aside class="contact-info"><p class="eyebrow">DEMO ONLY</p><h2>문의폼 체험</h2><p>실제 개인정보 대신 예시 정보를 입력해 주세요.</p><p>형식 검증과 파일 선택만 체험하며 이메일 전송, 상담 접수, 파일 업로드는 하지 않습니다.</p><p>예시 업체: 샘플 호텔<br>예시 담당자: 홍길동<br>예시 연락처: 010-0000-0000</p></aside>
+                    <form id="inquiry-form" novalidate>
+                        <h2>문의 데모</h2>
+                        <div class="form-honeypot" hidden aria-hidden="true"><label for="website">이 항목은 비워두세요</label><input type="text" id="website" name="website" tabindex="-1" autocomplete="off"></div>
+                        <div class="form-grid">
+                            <div class="field "><label for="company">업체명 <span>(필수)</span></label><input type="text"
+                                    id="company" name="company" aria-describedby="company-error" required
+                                    maxlength="100" placeholder="예: ABC호텔">
+                                <p class="field-error" id="company-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="contact_name">담당자명 <span>(필수)</span></label><input type="text"
+                                    id="contact_name" name="contact_name" aria-describedby="contact_name-error" required
+                                    maxlength="50" autocomplete="name" placeholder="예: 홍길동">
+                                <p class="field-error" id="contact_name-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="phone">연락처 <span>(필수)</span></label><input type="tel"
+                                    id="phone" name="phone" aria-describedby="phone-error" required autocomplete="tel"
+                                    inputmode="tel" maxlength="30" placeholder="010-1234-5678">
+                                <p class="field-error" id="phone-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="email">이메일 <span>(선택)</span></label><input type="email"
+                                    id="email" name="email" aria-describedby="email-error" autocomplete="email"
+                                    maxlength="150" placeholder="예: contact@example.com">
+                                <p class="field-error" id="email-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="region">사업장 지역 <span>(필수)</span></label><input type="text"
+                                    id="region" name="region" aria-describedby="region-error" required maxlength="100"
+                                    placeholder="예: 서울특별시 강남구">
+                                <p class="field-error" id="region-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="industry">업종 <span>(필수)</span></label><select id="industry"
+                                    name="industry" aria-describedby="industry-error" required>
+                                    <option value="">선택해주세요</option>
+                                    <option>호텔</option>
+                                    <option>리조트</option>
+                                    <option>연수원 / 기업 교육시설</option>
+                                    <option>골프장</option>
+                                    <option>사우나 / 찜질방</option>
+                                    <option>음식점</option>
+                                    <option>기타</option>
+                                </select>
+                                <p class="field-error" id="industry-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="rooms">객실 수 <span>(선택)</span></label><select id="rooms"
+                                    name="rooms" aria-describedby="rooms-error">
+                                    <option value="">선택해주세요</option>
+                                    <option>0</option>
+                                    <option>50</option>
+                                    <option>100</option>
+                                    <option>200</option>
+                                    <option>250</option>
+                                    <option>300 이상</option>
+                                </select>
+                                <p class="field-error" id="rooms-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="frequency">희망 수거 주기 <span>(필수)</span></label><select
+                                    id="frequency" name="frequency" aria-describedby="frequency-error" required>
+                                    <option value="">선택해주세요</option>
+                                    <option>매일</option>
+                                    <option>주 6회</option>
+                                    <option>주 3~5회</option>
+                                    <option>주 1~2회</option>
+                                    <option>협의 필요</option>
+                                </select>
+                                <p class="field-error" id="frequency-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field "><label for="start">서비스 시작 희망일 <span>(선택)</span></label><input
+                                    type="date" id="start" name="start" aria-describedby="start-error">
+                                <p class="field-error" id="start-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field wide"><label for="message">문의 내용 <span>(선택)</span></label><textarea
+                                    id="message" name="message" aria-describedby="message-error" rows="5" spellcheck="false"
+                                    maxlength="3000" placeholder="세탁 품목, 특수 세탁 여부, 수거·납품 일정 등 추가 요청사항을 입력해 주세요."></textarea>
+                                <p class="field-error" id="message-error" aria-live="polite"></p>
+                            </div>
+                            <div class="field wide attachment-field"><label for="files">첨부파일 <span>(선택)</span></label>
+                                <input type="file" id="files" name="files" multiple tabindex="-1" accept=".pdf,.hwp,.hwpx,.doc,.docx,.xls,.xlsx,.csv,.jpg,.jpeg,.png,.webp,.heic" aria-describedby="files-limits files-error">
+                                <div class="attachment-upload">
+                                    <div class="attachment-dropzone" role="button" tabindex="0" aria-label="첨부파일 선택 또는 드래그 앤 드롭" aria-describedby="files-limits files-error">
+                                        <div class="attachment-action"><span>파일을 끌어다 놓거나 파일을 선택하세요</span><span class="file-picker-button">파일 선택</span></div>
+                                        <div class="attachment-limits" id="files-limits">PDF · 엑셀 · 한글 · 이미지 / 최대 3개 · 총 20MB</div>
+                                        <div class="attachment-complete" aria-live="polite"><span id="attachment-status"></span><span class="file-picker-button">파일 추가</span><span class="attachment-max">최대 3개</span></div>
+                                    </div>
+                                    <div id="files-help" class="attachment-list" aria-live="polite"></div>
+                                </div>
+                                <p class="field-error" id="files-error" aria-live="polite"></p>
+                            </div>
+                        </div>
+                        <p id="form-message" role="status" aria-live="polite"></p>
+                        <div class="form-privacy-row"><label class="form-privacy-consent" for="privacy-consent"><input type="checkbox" id="privacy-consent" name="privacyConsent" required> 실제 전송 없는 데모임을 확인했습니다. <span>(필수)</span></label><a href="/privacy/">데모 개인정보 안내</a></div>
+                        
+                        <button class="button"
+                            type="submit" disabled>데모 완료하기 <span aria-hidden="true">↗</span></button><noscript>
+                            <p>문의폼에는 JavaScript가 필요합니다. 이 데모를 체험하려면 JavaScript를 켜주세요.</p>
+                        </noscript>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer data-include="footer"></footer>
+</body>
+
+</html>
